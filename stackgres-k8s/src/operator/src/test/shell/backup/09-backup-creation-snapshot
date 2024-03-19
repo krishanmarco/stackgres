@@ -1,9 +1,0 @@
-#!/bin/sh
-
-USE_VOLUME_SNAPSHOT=true
-
-. "$TEST_SHELL_PATH/backup/abstract-backup"
-
-shell_unit_test() {
-  shell_unit_test_backup
-}

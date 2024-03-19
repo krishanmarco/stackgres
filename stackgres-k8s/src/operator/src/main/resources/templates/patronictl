@@ -1,3 +1,0 @@
-#!/bin/sh
-
-exec-with-env "${PATRONI_ENV}" -- /usr/bin/patronictl -c "$PATRONI_CONFIG_FILE" "$@"
